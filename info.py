@@ -24,7 +24,7 @@ BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
 VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003880761184'))
-SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
+SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", "-1003848467165"))
 
 # ✅ __Feature Toggles__
 VERIFY = False  # Enable user verification
