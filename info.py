@@ -70,8 +70,8 @@ MULTI_CLIENT = False
 NAME = environ.get('name', 'CantarellaBots')
 
 # 🌐 __Web Server__
-ON_HEROKU = 'DYNO' in environ
-APP_NAME = environ.get('APP_NAME') if ON_HEROKU else None
+ON_KOYEB = 'DYNO' in environ
+APP_NAME = environ.get('APP_NAME') if ON_KOYEB else None
 
 PORT = int(environ.get('PORT', 2626))
 NO_PORT = str(environ.get("NO_PORT", "true")).lower() in ("true", "1", "yes")
