@@ -23,7 +23,7 @@ HOW_TO_OPEN = environ.get('HOW_TO_OPEN', 'https://t.me/cantarellabots')
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", ''))
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-'))
 PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", ''))
-VERIFIED_LOG = int(environ.get('VERIFIED_LOG', ''))
+VERIFIED_LOG = int(environ.get('VERIFIED_LOG', '-1003880761184'))
 SUPPORT_GROUP = int(environ.get("SUPPORT_GROUP", ""))
 
 # ✅ __Feature Toggles__
